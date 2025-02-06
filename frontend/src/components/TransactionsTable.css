@@ -1,0 +1,58 @@
+.pagination-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+
+.page-number {
+    margin-right: auto; 
+}
+
+.pagination-buttons {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
+.pagination-text {
+    cursor: pointer;
+    margin: 0 5px; 
+}
+
+.pagination-text.disabled {
+    color: gray; 
+    cursor: not-allowed; 
+}
+
+.per-page {
+    margin-left: auto; 
+}
+
+/* Add this CSS to TransactionsTable.css */
+
+.table-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #bcdff3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    text-align: left; 
+    background-color: #f7cb3a; 
+    font-size: 12px;
+}
+
+th {
+    background-color: #f1f1f1; 
+}

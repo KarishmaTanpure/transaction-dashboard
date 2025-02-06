@@ -1,0 +1,21 @@
+.chart-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #bcdff3;;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recharts-xAxis {
+    font-size: 12px; 
+}
